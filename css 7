@@ -1,0 +1,22 @@
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.light-theme {
+  background-color: white;
+  color: black;
+}
+
+body.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.content.visible {
+  opacity: 1;
+}
